@@ -424,6 +424,11 @@ html[xmlns] .flexslider .slides {
   }
 } */
 
+p {
+  /* Your CSS properties for <p> tags here */
+  font-size: 20px !important;
+}
+
 
 @media screen and (max-width: 640px) {
   .scroll-container {

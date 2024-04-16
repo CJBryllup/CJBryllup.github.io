@@ -320,15 +320,15 @@ html[xmlns] .flexslider .slides {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 
 /* .scroll-container {
@@ -348,7 +348,7 @@ html[xmlns] .flexslider .slides {
 } */
 
 .scroll-wrapper {
-  position: relative; 
+  position: relative;
 }
 
 .scroll-container {
@@ -396,22 +396,84 @@ html[xmlns] .flexslider .slides {
   z-index: 1;
 }
 
-.scroll-button:hover, .scroll-button:active {
+.scroll-button:hover,
+.scroll-button:active {
   background: rgba(0, 0, 0, 0.9);
 }
 
 #scroll-left {
-  
+
   border-radius: 0 3px 3px 0;
   left: 0px;
 }
 
 #scroll-right {
-  
+
   border-radius: 3px 0 0 3px;
   right: 0px;
 }
 
+p {
+  /* Your CSS properties for <p> tags here */
+  font-size: 20px !important;
+}
+
+#rsvp-form input,
+#rsvp-form textarea {
+  /* Your styles go here. For example: */
+  font-size: 20px !important;
+  /* padding: 0px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px; */
+}
+
+
+.input-flex {
+  /* font-size: 15px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px
+}
+
+.input-margin {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+.rsvp-btn-text-size {
+  font-size: 20px;
+
+}
+
+.camping-logo {
+  width: 150px;
+  height: auto;
+  filter: grayscale(75%);
+}
+
+.hero-text-svg-color path {
+  /* width: 25%; */
+  fill: #e8ca6f;
+}
+
+.hero-text-svg-color svg {
+  width: 100%;
+  height: auto;
+  stroke: #000 !important; /* This sets the border color */
+  stroke-width: 5 !important; /* This sets the border width */
+
+}
+
+html * {
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif */
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
+} */
 
 /* Tror ikke det her bliver brugt??? */
 /* @media screen and (max-width:860px) {
@@ -423,11 +485,6 @@ html[xmlns] .flexslider .slides {
     display: none;
   }
 } */
-
-p {
-  /* Your CSS properties for <p> tags here */
-  font-size: 20px !important;
-}
 
 
 @media screen and (max-width: 640px) {

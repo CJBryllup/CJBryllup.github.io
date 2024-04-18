@@ -304,11 +304,11 @@ html[xmlns] .flexslider .slides {
  * RESPONSIVE
  * ====================================================================================================================*/
 
-.gallery::-webkit-scrollbar {
+/* .gallery::-webkit-scrollbar {
   display: none;
 }
 
-*/ .gallery-wrap {
+.gallery-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -329,23 +329,8 @@ html[xmlns] .flexslider .slides {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
-}
-
-/* .scroll-container {
-  max-height: 100%;
-  background-color: #262626;
-  overflow: auto;
-  white-space: nowrap;
-  padding: 10px;
-}
-
-.scroll-container img {
-  border-radius: 20px;
-  filter: sepia(1);
-  max-height: 500px;
-  max-width: 100%;
-  padding: 10px;
 } */
+
 
 .scroll-wrapper {
   position: relative;
@@ -366,17 +351,6 @@ html[xmlns] .flexslider .slides {
   max-width: 100%;
   padding: 10px;
 }
-
-/* .scroll-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #fff;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  z-index: 1;
-} */
 
 .scroll-button {
   cursor: pointer;
@@ -408,24 +382,17 @@ html[xmlns] .flexslider .slides {
 }
 
 #scroll-right {
-
   border-radius: 3px 0 0 3px;
   right: 0px;
 }
 
 p {
-  /* Your CSS properties for <p> tags here */
   font-size: 20px !important;
 }
 
 #rsvp-form input,
 #rsvp-form textarea {
-  /* Your styles go here. For example: */
   font-size: 20px !important;
-  /* padding: 0px;
-    margin: 0px;
-    margin-left: 5px;
-    margin-right: 5px; */
 }
 
 
@@ -467,9 +434,10 @@ p {
 
 }
 
-html * {
-  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif */
+.textarea-100 {
+  min-height: 100px;
 }
+
 
 /* h1, h2, h3, h4, h5, h6 {
   font-family: Arial, sans-serif;

@@ -344,6 +344,17 @@ html[xmlns] .flexslider .slides {
   padding: 10px;
 }
 
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.scroll-container img {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+
 .scroll-container img {
   border-radius: 20px;
   filter: sepia(1);
@@ -438,6 +449,14 @@ p {
   min-height: 100px;
 }
 
+
+/* .snaps-inline {
+  scroll-snap-type: proximity;
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
+} */
 
 /* h1, h2, h3, h4, h5, h6 {
   font-family: Arial, sans-serif;

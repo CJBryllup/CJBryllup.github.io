@@ -297,7 +297,8 @@
     }
 
     .line-divider svg {
-        width: 75%;
+        /* width: 75%; */
+        width: 95%;
     }
 
     .smaller-width {
